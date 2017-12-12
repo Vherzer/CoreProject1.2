@@ -141,6 +141,32 @@ img{
 	padding-left: 30px;
 
 }
+/*---------------CONTACT PAGE----------------*/
+#Contact{
+	background-color: black;
+	padding-left: 90px;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+}
+
+#contacttext{
+	float: left;
+	color: white;
+
+}
+
+#contactheader{
+	font-size: 26px;
+	padding-bottom: 60px;
+	padding-top: 80px;
+	color: #821418 ;
+	text-shadow: .4px 1px .2px grey;
+}
+
+img {
+	padding: 20px;
+}
 /*---------------FOOTER-------------------*/
 footer{
 	background-color:#821418 ;
