@@ -1,0 +1,152 @@
+/*COLORS
+codefactoryRED: #821418*/
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1px;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+
+#bakgroundimage{
+	/*background-image: url("alwayssunny.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1000px;
+	width: 100%;
+	position: absolute;*/
+	background: rgba(0, 0, 0, 0) url("pup.jpg") no-repeat scroll center center / cover;
+
+}
+
+/*---------------HEADER AND NAVBAR----------------*/
+.header{
+	height: 50px;
+	padding-top: 25px;
+	padding-left: 20px;
+		border-bottom: solid 1px #821418;
+}
+
+#teamname{
+	float: left;
+	font-size: 20px;
+	color:#821418;
+	
+}
+
+
+nav{
+	text-align: center;
+}
+
+nav input{
+	float: right;
+	margin-right: 30px;
+
+}
+
+li{
+	display: inline;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-left: 15px;
+}
+
+a{	
+	color:#821418;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover{
+	color: #821418;
+	text-decoration: underline;
+}
+a:visited{
+	color: #821418;
+}
+
+/*---------------HOMEPAGE BODY----------------*/
+#teamtext{
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding-top: 140px;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+#teamtext2{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding-bottom: 130px;
+}
+#allimages{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 100%;
+	justify-content: space-around;
+	
+}
+#allimages img{
+	width: 200px;
+	height: 200px;
+	
+
+
+}
+
+/*---------------VIKI PAGE----------------*/
+#vikisection{
+	padding-bottom: 50px;
+	background-color: black;
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+#vikiheader{
+	text-align: center;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+}
+
+#vikitext{
+	background-color: white;
+	border: solid;
+	width: 700px;
+	color: #99B1C3;	
+
+}
+#vikiinfo{
+	padding-left: 20px;
+}
+
+#vikitext p{
+	padding: 10px;
+}
+#vikisection img{
+	width: 170px;
+	height: 170px;
+	padding-top: 10px;
+}
+img{
+	padding-left: 30px;
+
+}
+/*---------------FOOTER-------------------*/
+footer{
+	background-color:#821418 ;
+	height: 130px;
+	text-align: center;
+	padding-top: px;
+	color: #C8D7E2;
+	width: 100%;
+}
