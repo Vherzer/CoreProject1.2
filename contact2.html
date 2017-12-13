@@ -31,9 +31,23 @@
 			<p>Address: Kettenbrückengasse 23, 1050 Wien</p>
 			<p>Telephone Number: +436606673655</p>
 			<p>Email: office@codefactory.wien</p>
+
 		</div>	
-		<div id="map">
-			<img  src="map.png" alt="map" height=380px; width=360px;>
+
+		<div id="mapcontainer">
+			<div id="map" style="height:370px; width:370px;"> 
+				
+				<script>
+				function myMap() {
+				  var mapCanvas = document.getElementById("map");
+				  var mapOptions = {
+				    center: new google.maps.LatLng(48.1964434, 16.3594155000), zoom: 10
+				  };
+				  var map = new google.maps.Map(mapCanvas, mapOptions);
+				}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7GfQPH5bkm_RmlC6FfSCM3AbtwMVXfXU&callback=myMap"></script>
+			</div>
 		</div>
 		
 
