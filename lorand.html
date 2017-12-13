@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Young Smiles</title>
+	<link rel="stylesheet" href="try.css">
+</head>
+<body>
+	<header  class="header">
+		<h1 id="teamname">Young Smiles</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="draft.html" title="">Home</a></li>
+				<li><a href="viki.html" title="">Viktoria</a></li>
+				<li><a href="" title="">Lorand</a></li>
+				<li><a href="" title="">Tanja</a></li>
+				<li><a href="" title="">Atra</a></li>
+				<li><a href="contact.html" title="">Contact</a>
+				</li>
+				<input type="text" placeholder="Search..">
+			</ul>
+		</nav>
+
+	</header>
+
+
+	<section>
+	<div class="section">
+		
+	<div class="row">
+		<div class="column">
+			<img src="lpic1.jpg" style="width: 100%" height="200px" onclick="myFunction(this)">
+		</div>
+		
+		<div class="column">
+			<img src="lpic2.jpg" style="width: 100%" height="200px" onclick="myFunction(this)">
+		</div>
+	</div>	
+
+
+	<div class="text">
+		<p><b>Name:</b> Lorand Kovacs</p>
+		<p><b>Birth year:</b> 1993</p>
+		<p><b>Location:</b> Austria </p>
+		<p><b>About:</b>After graduating from High School in Szeged, Hungary I decided to move to the UK to figure out what do I want to do with my life. I was working at a Japanese luxury restaurant called Zuma. After a while I decided to move back to my family to Serbia. I got a job in my hometown at the local TV as a cameraman and broadcast manager. Later I tried my luck in vienna, got a job at Hard Rock Cafe and since then Im working there. At the moment Im proud member of CodeFactory, were Im learning Web Developement hoping for a bright future.Other than programming, sports are really close to me, specially basketball and extereme sports.</p>
+		
+	</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>	
+		<img id="expandedImg" style="width: 50%"><br>
+		<div id="imgtxt"></div>
+	</div>
+
+	</section>
+
+	<footer>
+		<img src="logo.png" alt="Logo">
+		<p> &copy All Right Reserved CodeFactory</p>
+	</footer>	
+
+<script type="text/javascript">
+	function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgtxt = document.getElementById("imgtxt");
+    expandImg.src = imgs.src;
+    imgtxt.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+
+</script>
+
+
+</body>
+</html>
