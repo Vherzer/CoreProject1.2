@@ -15,7 +15,7 @@ codefactoryRED: #821418*/
 	width: 1000px;
 	width: 100%;
 	position: absolute;*/
-	background: rgba(0, 0, 0, 0) url("pup.jpg") no-repeat scroll center center / cover;
+	background: rgba(0, 0, 0, 0) url("groupshot.jpg") no-repeat scroll center center / cover;
 
 }
 
@@ -92,7 +92,7 @@ a:visited{
 	
 }
 #allimages img{
-	width: 200px;
+	width: 160px;
 	height: 200px;
 	
 
