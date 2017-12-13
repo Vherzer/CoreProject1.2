@@ -15,7 +15,7 @@ codefactoryRED: #821418*/
 	width: 1000px;
 	width: 100%;
 	position: absolute;*/
-	background: rgba(0, 0, 0, 0) url("groupshot.jpg") no-repeat scroll center center / cover;
+	background: rgba(0, 0, 0, 0) url("pup.jpg") no-repeat scroll center center / cover;
 
 }
 
@@ -24,8 +24,7 @@ codefactoryRED: #821418*/
 	height: 50px;
 	padding-top: 25px;
 	padding-left: 20px;
-	border-bottom: solid 1px #821418;
-
+		border-bottom: solid 1px #821418;
 }
 
 #teamname{
@@ -43,8 +42,6 @@ nav{
 nav input{
 	float: right;
 	margin-right: 30px;
-	border-radius: 5px;
-	height: 15px;
 
 }
 
@@ -75,11 +72,10 @@ a:visited{
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 1px black;
-	padding-top: 200px;
+	padding-top: 140px;
 	padding-left: 140px;
 	padding-right: 140px;
 }
-
 #teamtext2{
 	font-size: 25px;
 	text-align: center;
@@ -87,19 +83,18 @@ a:visited{
 	text-shadow: 1px 1px 1px black;
 	padding-bottom: 130px;
 }
-
 #allimages{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 	width: 100%;
 	justify-content: space-around;
-	background: rgba(0, 0, 0, 0) url("teambg.jpg") no-repeat scroll center center / cover;
+	
 }
-
 #allimages img{
-	border-radius: 50%;
-	max-width: 200px;
+	width: 200px;
+	height: 200px;
+	
 
 
 }
@@ -108,9 +103,9 @@ a:visited{
 #vikisection{
 	padding-bottom: 50px;
 	background-color: black;
-	display: flex;
+	display: inline-flex;
+	flex-wrap: wrap;
 	width: 100%;
-	text-align: center;
 
 }
 
@@ -118,7 +113,7 @@ a:visited{
 	text-align: center;
 	color: #821418;
 	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	font-size: 30px;
 
 }
@@ -128,10 +123,6 @@ a:visited{
 	border: solid;
 	width: 700px;
 	color: #99B1C3;	
-	flex: 1;
-	padding-right: 30px;
-	padding-left:30px;
-	padding-bottom: 30px;
 
 }
 #vikiinfo{
@@ -140,43 +131,71 @@ a:visited{
 
 #vikitext p{
 	padding: 10px;
-	padding-bottom: 15px;
 }
 #vikisection img{
-	flex: 1;
+	width: 170px;
+	height: 170px;
 	padding-top: 10px;
 }
 img{
-	padding-left: 50px;
-	padding-right: 30px;
-	width: 250px;
+	padding-left: 30px;
+
 }
-/*---------------CONTACT PAGE----------------*/
-#Contact{
-	background-color: #B8B9BC;
-	padding-left: 100px;
-	font-size: 20px;
-	font-weight: 100;
+
+
+/*---------------atra PAGE----------------*/
+#atrasection{
+	background-color: #778899;
+	display: flex;
+	width: 100%;
+
+}
+
+#atraheader{
 	text-align: center;
-}
-
-#contacttext{
-	float: left;
-	color: white;
-	padding-right: 100px;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
 
 }
 
-#contactheader{
-	font-size: 26px;
-	padding-bottom: 60px;
-	padding-top: 80px;
-	color: #821418 ;
-	text-shadow: .4px 1px .2px grey;
+#atratext{
+	flex: 1;
+	background-color: white;
+	border: solid;
+	width: 700px;
+	color: #99B1C3;	
+	text-align: center;
+
+
+}
+#atrainfo{
+	padding-left: 20px;
+	padding-right: 70px;
+	margin-right: 40px;
 }
 
-#mapcontainer {
-	padding: 50px;
+#atratext p{
+	padding: 10px;
+}
+#atrasection img{
+	
+	padding-top: 10px;
+}
+
+#atraimages {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+
+
+}
+img{
+	padding-left: 30px;
+	width: 250px;
+	margin-left:40px;
 }
 
 /*---------------FOOTER-------------------*/
@@ -188,3 +207,4 @@ footer{
 	color: #C8D7E2;
 	width: 100%;
 }
+
