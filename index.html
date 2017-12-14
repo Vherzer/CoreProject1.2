@@ -9,7 +9,7 @@
 </head>
 <body>
 		<header  class="header">
-			<h1 id="teamname">Young Smiles</h1>
+			<a href="index.html"><h1 id="teamname">Young Smiles</h1>
 
 			<nav>
 				<ul>
@@ -26,9 +26,8 @@
 		</header>
 
 		<section id="background">
-			<!--ADD IMAGE AS BACKGROUND ON CSS-->
-			<h2 id="teamtext">MEET OUR TEAM</h2>
-			<p id="teamtext2">We welcome you to our Homepage! Feel free to explore around.</p>
+			<h2 id="teamtext" onmouseover="hello()">MEET OUR TEAM</h2>
+			<p id="teamtext2"></p>
 
 		</section>
 	</div>
@@ -36,24 +35,25 @@
 	<div id="allimages">
 		<a href="viki.html">
 			<div class="profile"> 
-				<img src="viki img/viki1.jpg" alt="smiley">
+				<img class="img" src="viki img/viki1.jpg" alt="smiley">
 				<p>Viktoria</p>
 			</div>
 		</a>
 		<a href="lorand.html">
 		<div class="profile"> 
-			<img src="lorand img/lorand1.jpg" alt="smiley">
+			<img class="img" src="lorand img/lorand1.jpg" alt="smiley">
 			<p>Lorand</p>
 		</div>
 		</a>
 		<a href="tanja.html">
 		<div class="profile">
-			<img src="tanja img/tanja1.jpg" alt="smiley">
+			<img class="img" src="tanja img/tanja1.jpg" alt="smiley">
 			<p>Tanja</p>
 		 </div>
 		 </a>
 		 <a href="#">
-		<div class="profile"> <img src="atra img/atra1.jpg" alt="smiley">
+		<div class="profile"> 
+			<img class="img" src="atra img/atra1.jpg" alt="smiley">
 			<p>Atra</p>
 		</div>
 		</a>
@@ -64,5 +64,7 @@
 		<p> &copy All Right Reserved CodeFactory</p>
 		
 	</footer>
+
+	<script src="javascript/javascript.js"></script>
 </body>
 </html>

@@ -9,12 +9,6 @@ codefactoryRED: #821418*/
 }
 
 #background {
-	/*background-image: url("alwayssunny.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 1000px;
-	width: 100%;
-	position: absolute;*/
 	background: rgba(0, 0, 0, 0) url("groupshot.jpg") no-repeat scroll center center / cover;
 	
 
@@ -45,7 +39,8 @@ nav input{
 	float: right;
 	margin-right: 30px;
 	border-radius: 5px;
-	height: 15px;
+	height: 25px;
+	width: 180px;
 
 }
 
@@ -65,6 +60,8 @@ a{
 a:hover{
 	color: #821418;
 	text-decoration: underline;
+	font-size: 30px;
+	font-weight: bold;
 }
 a:visited{
 	color: #821418;
@@ -82,15 +79,20 @@ a:visited{
 }
 
 #teamtext2{
-	font-size: 25px;
+	font-size: 35px;
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	padding-bottom: 130px;
 }
 
+#teamtext:hover {
+	cursor: pointer;
+	font-family: '' sans
+}
+
 #allimages{
-	padding-top: 10px;
+	padding-top: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -99,9 +101,9 @@ a:visited{
 	background: rgba(0, 0, 0, 0) url("teambg.jpg") no-repeat scroll center center / cover;
 }
 
-#allimages img{
-	border-radius: 50%;
-	max-width: 200px;
+.img {
+	border-radius: 80px;
+	box-shadow: 1px 1px 41px 5px rgba(138,135,138,1);	
 }
 
 /*---------------VIKI PAGE----------------*/
@@ -152,57 +154,52 @@ img{
 }
 
 /*---------------TANJA PAGE----------------*/
-#tanja{
-	display: flex;
-	padding-top: 50px;
+
+#tanja {
 	padding-bottom: 50px;
 	background-color: #B8B9BC;
+	display: flex;
 	width: 100%;
+	text-align: center;
 }
 
-#tanjaheader{
+#tanjaheader {
 	text-align: center;
 	color: #821418;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	font-size: 30px;
-
 }
 
-#tanjatext{
+#tanjatext {
+	clear: both;
 	background-color: white;
 	width: 700px;
 	color: #99B1C3;	
-	text-align: center;
-	padding: 40px;
-	font-size: 20px;
-
-}
-#tanjainfo {
-	padding-right: 100px;
-	text-align: center;
 	flex: 1;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	box-shadow: 1px 1px 41px 5px rgba(138,135,138,1); 
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+#tanjainfo {
+	padding-left: 100px;
 }
 
 #tanjatext p {
 	padding: 10px;
 	padding-bottom: 15px;
 }
-
-#tanjaimages{
-	flex: 1;
-	padding-left: 50px;
-	padding-top: 50px; 
+#tanjaimg {
+	padding-top: 100px;
 }
 
-#tanjaimages img {
-	padding-top: 50px;
+#tanjaimg img {
+	box-shadow: 1px 1px 41px 5px rgba(138,135,138,1); 
+	padding: 10px 10px;
 }
-
-#tanjatext object {
-	padding-bottom: 20px;
-}
-
 /*---------------ATRA PAGE----------------*/
 
 #atrasection{
