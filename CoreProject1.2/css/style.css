@@ -1,0 +1,436 @@
+/*COLORS
+codefactoryRED: #821418*/
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1px;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+
+
+
+#background {
+	background: rgba(0, 0, 0, 0) url("groupshot.jpg") no-repeat scroll center center / cover;
+	
+
+}
+
+/*---------------HEADER AND NAVBAR----------------*/
+.header{
+	height: 50px;
+	padding-top: 25px;
+	padding-left: 20px;
+	border-bottom: solid 1px #821418;
+
+}
+
+#teamname{
+	float: left;
+	font-size: 30px;
+	color:#821418;
+	
+}
+
+
+nav{
+	text-align: center;
+	padding-top: 8px;
+}
+
+nav input{
+	float: right;
+	margin-right: 30px;
+	border-radius: 5px;
+	height: 25px;
+	width: 180px;
+
+}
+
+li{
+	display: inline;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-left: 25px;
+}
+
+a{	
+	color:#821418;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover{
+	color: #821418;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+}
+a:visited{
+	color: #821418;
+}
+
+/*---------------HOMEPAGE BODY----------------*/
+#teamtext{
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding-top: 300px;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+
+#teamtext2{
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding-bottom: 130px;
+}
+
+#teamtext:hover {
+	cursor: pointer;
+	font-family: '' sans
+}
+
+#allimages{
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 100%;
+	justify-content: space-around;
+	background: rgba(0, 0, 0, 0) url("teambg.jpg") no-repeat scroll center center / cover;
+}
+
+.img {
+	border-radius: 80px;
+	box-shadow: 1px 1px 41px 5px rgba(138,135,138,1);	
+}
+
+/*---------------VIKI PAGE----------------*/
+#vikisection{
+	padding-bottom: 50px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+
+}
+
+#vikiheader{
+	text-align: center;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 30px;
+
+}
+
+#vikitext{
+	background-color: white;
+	border:solid;
+	width: 600px;
+	color: #99B1C3;	
+	flex: 1;
+	padding-right: 30px;
+	padding-left:30px;
+	padding-bottom: 30px;
+	border-radius: 7px;
+	border-color: #821418;
+
+}
+#vikiinfo{
+	padding-left: 20px;
+}
+
+#vikitext p{
+	padding: 10px;
+	padding-bottom: 15px;
+}
+#vikisection img{
+	flex: 1;
+	padding-top: 10px;
+}
+img{
+	padding-left: 50px;
+	padding-right: 30px;
+	width: 100%;
+}
+
+#images{
+	padding-right: 50px;
+	max-width: 350px;
+	padding-top: 20px;
+}
+
+/*---------------TANJA PAGE----------------*/
+
+#tanja {
+	padding-bottom: 50px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+}
+
+#tanjaheader {
+	text-align: center;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+#tanjatext {
+	clear: both;
+	background-color: white;
+	width: 700px;
+	color: #99B1C3;	
+	flex: 1;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	box-shadow: 1px 1px 41px 5px rgba(138,135,138,1); 
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+#tanjainfo {
+	padding-left: 200px;
+}
+
+#tanjatext p {
+	padding: 10px;
+	padding-bottom: 15px;
+}
+#tanjaimg {
+	padding-top: 100px;
+	width: 15%;
+}
+
+#tanjaimg img {
+	padding: 10px;
+}
+/*---------------ATRA PAGE----------------*/
+
+#atrasection{
+	background-color:black;
+	display: flex;
+	width: 100%;
+
+}
+
+#atraheader{
+	text-align: center;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+}
+
+#atratext{
+	flex: 1;
+	background-color: white;
+	border: 1px solid;
+	width: 700px;
+	color: #99B1C3;	
+	text-align: center;
+	border-collapse: separate;
+	border-radius: 15px;
+	overflow: hidden;
+	perspective: 1px;
+	-webkit-box-shadow: 3px 3px 5px 6px #696969;
+
+
+}
+#atrainfo{
+	padding-left: 20px;
+	padding-right: 70px;
+	margin-right: 40px;
+}
+
+#atratext p{
+	 padding: 10px; 
+}
+#atrasection img{
+	
+	padding-top: 10px;
+}
+
+#atraimages1 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+
+}
+#atraimages2 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+
+}
+#atraimages3 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+}
+#atraimages3 img,
+ #atraimages2 img,
+ #atraimages1 img{
+	padding:  0;
+}
+
+.allimages{
+flex-direction: column;
+width: 30%;
+}
+#atrasection img{
+	box-shadow: 3px 3px 5px 6px #696969;
+}
+img{
+	padding-left: 30px;
+	width: 250px;
+	margin-left:40px;
+	border-radius: 9%;
+	justify-content: space-between;	
+}
+section{
+	flex-wrap: wrap;
+	min-width: 600px;
+}
+
+/*---------------LORAND PAGE----------------*/
+
+.column {
+	min-width: 200px;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+	width: 50%;
+	}
+
+
+section {
+	width: 100%;
+	background-color: black;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.section{
+	display:flex;
+	width: 100%;
+	min-width: 600px;
+	flex-wrap: wrap;
+}
+
+.row {
+	width: 25%;
+	flex-wrap: wrap;
+}
+
+.container {
+	padding-left: 20%;
+	width: 50%;
+}
+
+.name {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: #821418;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.about {
+	width: 50%;
+	font-size: 17px;
+	background-color: white;
+	color: #99B1C3;	
+	padding: 10px;
+	min-width: 450px;
+}
+.frame{
+	min-width: 600px;
+	width: 100%;
+	display: flex;
+
+
+}
+
+
+.closebtn {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*---------------CONTACT PAGE----------------*/
+#Contact{
+	background-color: #B8B9BC;
+	padding-left: 100px;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+}
+
+#contacttext{
+	float: left;
+	color: white;
+	padding-right: 100px;
+
+}
+
+#contactheader{
+	font-size: 26px;
+	padding-bottom: 60px;
+	padding-top: 80px;
+	color: #821418 ;
+	text-shadow: .4px 1px .2px grey;
+}
+
+#mapcontainer {
+	padding: 50px;
+}
+
+/*---------------FOOTER-------------------*/
+footer{
+	background-color:#821418 ;
+	height: 130px;
+	text-align: center;
+	padding-top: px;
+	color: #C8D7E2;
+	width: 100%;
+}

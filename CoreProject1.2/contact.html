@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<title>Young Smiles-Contact</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+		<header  class="header">
+			<a href="index.html"><h1 id="teamname">Young Smiles</h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html" title="">Home</a></li>
+					<li><a href="viki.html" title="">Viktoria</a></li>
+					<li><a href="lorand.html" title="">Lorand</a></li>
+					<li><a href="tanja.html" title="">Tanja</a></li>
+					<li><a href="atra.html" title="">Atra</a></li>
+					<li><a href="contact.html" title="">Contact</a>
+					</li>
+					<input type="text" placeholder="Search..">
+				</ul>
+			</nav>
+		</header>
+
+		<section id="Contact">
+		<div id="contacttext">
+			<h2 id="contactheader">Contact Information</h2>
+			<p>Address: Kettenbrückengasse 23, 1050 Wien</p>
+			<p>Telephone Number: +436606673655</p>
+			<p>Email: office@codefactory.wien</p>
+
+		</div>	
+
+		<div id="mapcontainer">
+			<div id="map" style="height:370px; width:370px;"> 
+				
+				<script>
+				function myMap() {
+				  var mapCanvas = document.getElementById("map");
+				  var mapOptions = {
+				    center: new google.maps.LatLng(48.1964434, 16.3594155000), zoom: 15
+				  };
+				  var map = new google.maps.Map(mapCanvas, mapOptions);
+				}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7GfQPH5bkm_RmlC6FfSCM3AbtwMVXfXU&callback=myMap"></script>
+			</div>
+		</div>
+		
+
+		
+
+	</section>
+
+	<footer>
+		<img src="img/logo.png" alt="Logo">
+		<p> &copy All Right Reserved CodeFactory</p>
+		
+	</footer>
+</body>
+</html>
