@@ -1,0 +1,93 @@
+
+#atrasection{
+	background-color:black;
+	display: flex;
+	width: 100%;
+
+}
+
+#atraheader{
+	text-align: center;
+	color: #821418;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+}
+
+#atratext{
+	flex: 1;
+	background-color: white;
+	border: 1px solid;
+	width: 700px;
+	color: #99B1C3;	
+	text-align: center;
+	border-collapse: separate;
+	border-radius: 15px;
+	overflow: hidden;
+	perspective: 1px;
+	-webkit-box-shadow: 3px 3px 5px 6px #696969;
+
+
+}
+#atrainfo{
+	padding-left: 20px;
+	padding-right: 70px;
+	margin-right: 40px;
+}
+
+#atratext p{
+	 padding: 10px; 
+}
+#atrasection img{
+	
+	padding-top: 10px;
+}
+
+#atraimages1 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+
+}
+#atraimages2 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+
+}
+#atraimages3 {
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+
+}
+#atraimages3 img,
+ #atraimages2 img,
+ #atraimages1 img{
+	padding:  0;
+}
+
+.allimages{
+flex-direction: column;
+width: 30%;
+}
+section img{
+	box-shadow: 3px 3px 5px 6px #696969;
+}
+img{
+	padding-left: 30px;
+	width: 250px;
+	margin-left:40px;
+	border-radius: 9%;
+	justify-content: space-between;	
+}
+section{
+	flex-wrap: wrap;
+	min-width: 600px;
+}
