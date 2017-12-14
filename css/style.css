@@ -8,6 +8,8 @@ codefactoryRED: #821418*/
 	margin-right: 0;
 }
 
+
+
 #background {
 	background: rgba(0, 0, 0, 0) url("groupshot.jpg") no-repeat scroll center center / cover;
 	
@@ -60,7 +62,7 @@ a{
 a:hover{
 	color: #821418;
 	text-decoration: underline;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 }
 a:visited{
@@ -109,8 +111,9 @@ a:visited{
 /*---------------VIKI PAGE----------------*/
 #vikisection{
 	padding-bottom: 50px;
-	background-color: #B8B9BC;
+	background-color: black;
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	text-align: center;
 
@@ -127,12 +130,15 @@ a:visited{
 
 #vikitext{
 	background-color: white;
-	width: 700px;
+	border:solid;
+	width: 600px;
 	color: #99B1C3;	
 	flex: 1;
 	padding-right: 30px;
 	padding-left:30px;
 	padding-bottom: 30px;
+	border-radius: 7px;
+	border-color: #821418;
 
 }
 #vikiinfo{
@@ -150,15 +156,21 @@ a:visited{
 img{
 	padding-left: 50px;
 	padding-right: 30px;
-	width: 250px;
+	width: 100%;
+}
+
+#images{
+	padding-right: 50px;
+	max-width: 350px;
 }
 
 /*---------------TANJA PAGE----------------*/
 
 #tanja {
 	padding-bottom: 50px;
-	background-color: #B8B9BC;
+	background-color: black;
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	text-align: center;
 }
@@ -185,7 +197,7 @@ img{
 }
 
 #tanjainfo {
-	padding-left: 100px;
+	padding-left: 200px;
 }
 
 #tanjatext p {
@@ -194,6 +206,7 @@ img{
 }
 #tanjaimg {
 	padding-top: 100px;
+	width: 15%;
 }
 
 #tanjaimg img {
@@ -203,8 +216,9 @@ img{
 /*---------------ATRA PAGE----------------*/
 
 #atrasection{
-	background-color: #B8B9BC;
+	background-color: black;
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 
 }
@@ -256,6 +270,84 @@ img{
 }
 
 /*---------------LORAND PAGE----------------*/
+
+.column {
+	min-width: 200px;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+	width: 50%;
+	}
+
+
+section {
+	width: 100%;
+	background-color: black;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.section{
+	display:flex;
+	width: 100%;
+	min-width: 600px;
+	flex-wrap: wrap;
+}
+
+.row {
+	width: 25%;
+	flex-wrap: wrap;
+}
+
+.container {
+	padding-left: 20%;
+	width: 50%;
+}
+
+.name {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: #821418;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.about {
+	width: 50%;
+	font-size: 17px;
+	background-color: white;
+	color: #99B1C3;	
+	padding: 10px;
+	min-width: 450px;
+}
+.frame{
+	min-width: 600px;
+	width: 100%;
+	display: flex;
+
+
+}
+
+
+.closebtn {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
 
 
 
